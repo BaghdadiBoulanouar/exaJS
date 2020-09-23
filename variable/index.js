@@ -22,13 +22,17 @@ alert('test');
  */
 var string = '42';
 var number = 42;
-var float = 42;
-var bool = true | false;
+var float = 42.0;
+var bool = true;
 var array = [42];
-var date = 42;
+var date = newDate(4241,12, 24, 42);
 var datetest;
-var object = "42";
-var undefined;
+var object = {"42"; 42};
+var undefin = undefined;
+var und2;
+var empty = null;
+
+console.log(string, number, float, bool, array, date, object, undefin, empty)
  /**
  * Exercice 4
  */
