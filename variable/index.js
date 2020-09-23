@@ -26,9 +26,9 @@ var float = 42;
 var bool = true | false;
 var array = [42];
 var date = 42;
+var datetest;
 var object = "42";
 var undefined;
-var null;
  /**
  * Exercice 4
  */
@@ -37,7 +37,7 @@ console.log(`${my42count} ${my42count.length}`);
  /**
  * Exercice 5
  */
-var test = date2 || 42;
+var test = datetest || 42;
 console.log(test);
  /**
  * Exercice 6
