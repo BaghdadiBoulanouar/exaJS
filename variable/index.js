@@ -67,3 +67,11 @@ console.log(rand);
  */
  var my42Type = [typeof string, typeof number];
  console.log(my42Type);
+  /**
+ * Exercice 11
+ */
+ var compute42 = 7 * 6;
+  /**
+ * Exercice 12
+ */
+ var myVar
