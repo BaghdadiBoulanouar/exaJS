@@ -19,7 +19,7 @@ var myPutStr = function myPutStr(value){
 myPutStr("txt");
 
 /**
-* myPutStr
+* computeSurfaceM2
 * @param{number}longueur
 * @param{number}largeur
 * @return
@@ -33,3 +33,31 @@ var computeSurfaceM2 = function computeSurfaceM2(longueur, largeur){
 }
 
 computeSurfaceM2(50, 2);
+
+/*
+* Exercice 3
+*/
+
+var detectMyAgeByNight = function detectMyAgeByNight(){
+    
+}
+
+/*
+* Exercice 5
+*/
+
+/**
+* clock
+* @param{number}time
+* @return
+*/
+
+var clock = function clock(){
+    var today = new Date();
+    var actualTime = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    console.log(actualTime);
+}
+
+window.setInterval(function(){
+  clock();
+}, 1000);
